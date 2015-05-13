@@ -17,6 +17,12 @@ body {
 .header {
 	height: 800px;
 	text-align: center;
+	background: url("images/bg.jpg") no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color: #fff;
 }
 
 .header .container {
@@ -37,6 +43,13 @@ body {
 	margin-top: 0;
 	margin-bottom: 40px;
 
+}
+
+.btn {
+	color: #fff;
+	background-color: #000;
+	text-decoration: none;
+	padding: 12px 40px;
 }
 
 .btn:hover {
