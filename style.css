@@ -81,6 +81,12 @@ body {
 	margin: 80px auto;
 }
 
+.main img {
+	float: left;
+	width: 200px;
+	margin: 40px 80px 40px 0;
+}
+
 /* Jumbotron */
 .jumbotron {
 	height: 600px;
