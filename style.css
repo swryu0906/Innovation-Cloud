@@ -91,6 +91,12 @@ body {
 .jumbotron {
 	height: 600px;
 	text-align: right;
+	background: url("images/jumbotron_bg.jpg") no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color: #fff;
 }
 
 .jumbotron .container {
@@ -98,7 +104,14 @@ body {
 	top: 220px;
 }
 
+.jumbotron p {
+	margin-bottom: 40px;
+}
+
 /* Footer */
 .footer {
 	font-size: 14px;
+	color: #fff;
+	background-color: #000;
+	padding: 20px 0;
 }
