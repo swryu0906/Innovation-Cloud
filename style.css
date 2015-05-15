@@ -35,6 +35,7 @@ body {
 	line-height: 100px;
 	margin-top: 0;
 	margin-bottom: 80px;
+	text-transform: uppercase;
 }
 
 .header p {
@@ -42,7 +43,6 @@ body {
 	letter-spacing: 8px;
 	margin-top: 0;
 	margin-bottom: 40px;
-
 }
 
 .btn {
@@ -74,6 +74,11 @@ body {
 .nav li {
 	display: inline;
 	margin: 0 40px;
+}
+
+.nav a {
+	text-decoration: none;
+	color: #fff;
 }
 
 /* Main */
